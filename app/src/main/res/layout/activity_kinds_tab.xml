@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/kinds_latte"
+        android:src="@drawable/latte"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:scaleType="centerInside"
+        android:background="#0000"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageButton
+        android:id="@+id/kinds_esp"
+        android:src="@drawable/esp"
+        android:background="#0000"
+        android:scaleType="centerInside"
+        android:layout_marginTop="206dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageButton
+        android:id="@+id/kinds_ame"
+        android:background="#0000"
+        android:src="@drawable/ame"
+        android:scaleType="centerInside"
+        android:layout_below="@id/kinds_latte"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageButton
+        android:id="@+id/kinds_cap"
+        android:background="#0000"
+        android:src="@drawable/cap"
+        android:scaleType="centerInside"
+        android:layout_below="@id/kinds_esp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageButton
+        android:id="@+id/kinds_mocha"
+        android:src="@drawable/mocha"
+        android:scaleType="centerInside"
+        android:background="#0000"
+        android:layout_below="@id/kinds_cap"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageButton
+        android:id="@+id/kinds_car"
+        android:src="@drawable/car"
+        android:scaleType="centerInside"
+        android:background="#0000"
+        android:layout_below="@id/kinds_cap"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</RelativeLayout>
